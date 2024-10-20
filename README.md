@@ -11,6 +11,7 @@ This project utilizes YOLOv7 for object detection, providing an enhanced `detect
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Steps to Run the Project
 
@@ -21,6 +22,7 @@ First, clone the official YOLOv7 repository to your local machine.
 ```bash
 git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
+```
 ## Steps to Run the Project
 
 ### 3. Download Weights
@@ -33,3 +35,4 @@ To run the detection script, use the following command:
 
 ```bash
 python3 detect.py --weights best.pt --conf 0.4 --source 0 --device cpu
+```
