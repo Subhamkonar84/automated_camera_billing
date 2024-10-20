@@ -36,3 +36,9 @@ To run the detection script, use the following command:
 ```bash
 python3 detect.py --weights best.pt --conf 0.4 --source 0 --device cpu
 ```
+
+- `--weights`: Specifies the weights file to use (e.g., `best.pt`).
+- `--conf`: Sets the confidence threshold (e.g., `0.4`).
+- `--source`: Defines the input source (e.g., `0` for webcam).
+- `--device`: Specifies the hardware (use `cpu` or `cuda`).
+
