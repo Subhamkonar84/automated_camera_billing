@@ -1,4 +1,4 @@
-# AUtomated camera billing
+# Automated camera billing
 
 ## Overview
 
